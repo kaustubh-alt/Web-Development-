@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+
+}
+table{
+    margin: auto;
+}
+input{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    text-size-adjust: 40px;
+    border-radius: 20px;
+    border: 3px solid red;
+    padding-inline-start: 20px;
+}
+button{
+    text-align: center;
+    
+    font-size: 35px;
+    width: 80px;
+    height:80px;
+    background-color: crimson;
+    border-radius: 50px;
+}
