@@ -1,0 +1,46 @@
+.container{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hed{
+    font-family: "HarvestItal";
+    color:rgb(46, 108, 195);
+    
+}
+.mid{
+    margin: auto;
+    padding-top: 2%;
+    background-color: rgb(165, 249, 252);
+    height:450px;
+    width: 40%;
+    border-radius: 10px;
+}
+input{
+    padding-inline-start: 10px;
+    border-radius:10px;
+    height:30px;
+    width: 250px;
+    border: 3px white;
+
+}
+button{
+    color:black;
+    height:30px;
+    width: 100px;
+    border-radius: 5px;
+    border: rgb(77, 139, 227);
+    background-color: rgb(77, 139, 227);
+}
+
+.comp{
+    font-family: "HarvestItal";
+    color:rgb(46, 108, 195);
+
+}
+
+.btn2{
+    margin:2%;
+
+}
+
