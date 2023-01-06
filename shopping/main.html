@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Mobile Shoping</title>
+</head>
+<body>
+    <nav>
+        <a href="main.html"><h1 class="nav-text">Home</h1></a>
+    </nav>
+    <div class="screen" style="text-align: center;">
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iqoo7.jpg" 
+                alt="iqoo7" 
+                onclick="geet('iqoo7')"
+                height="150px"></a>
+            <h1 class="title">Iqoo 7<p>35000/-</p> </h1>
+            
+        </ul>
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iqoo9.jpg" 
+                alt="iqoo9" 
+                onclick="geet('iqoo9')" 
+                height="150px"></a>
+            <h1 class="title">Iqoo 9 <p>45000/-</p></h1>
+        </ul>
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iqoo9t.jpg" 
+                onclick="geet('iqoo9t')" 
+                alt="iqoo9t" 
+                height="150px"></a>
+            <h1 class="title">Iqoo 9T<p>50000/-</p> </h1>
+        </ul>
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iqooz6.jpg" 
+                alt="iqooz6"
+                onclick="geet('iqooz6')" 
+                height="150px"></a>
+            <h1 class="title">Iqoo Z6<p>20000/-</p> </h1>
+        </ul>
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iqooz6pro.jpg" 
+                alt="iqooz6pro" 
+                onclick="geet('iqooz6pro')"
+                height="150px"></a>
+            <h1 class="title">Iqoo Z6 Pro<p>25,000/-</p> </h1>
+        </ul>
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iphone13.jpg" 
+                onclick="geet('iphone13')"
+                alt="iphone13" 
+                height="150px"></a>
+            <h1 class="title">Iphone 13 <p>85,000/-</p></h1>
+        </ul>
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iphone14plus.jpg"
+                onclick="geet('iphone14plus')" 
+                alt="iqoo14plus" 
+                height="150px"></a>
+            <h1 class="title">Iphone 14 plus <p>95,000/-</p></h1>
+        </ul>
+        <ul class="main-box">
+            <a href="prod.html"><img src="png\iphone14promax.jpg" 
+                onclick="geet('iphone14promax')" 
+                alt="iphone14promax" 
+                height="150px"></a>
+            <h1 class="title">Iphone 14 Pro Max<p class="title">1,35,000</p></h1>
+        </ul>
+    </div>
+   <script>
+    preventDefault()
+    function geet(a){
+        localStorage.setItem('prod',a)
+    }
+   </script>
+    
+    
+</body>
+</html>
